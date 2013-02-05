@@ -1,0 +1,14 @@
+
+PODS: 
+- Tesseract (0.0.1)
+- Tesseract-wrapper (0.0.1): 
+  - Tesseract
+
+DEPENDENCIES: 
+- Tesseract-wrapper (>= 0.0)
+
+COCOAPODS: 0.16.1
+
+SPEC CHECKSUMS: 
+  Tesseract-wrapper: 0246bc8aeb1d18e0dc30c722f1ca6251c2d8a7cd
+  Tesseract: 62dcefb8b3b9d1ba2d62711449cc4da06759ebc1

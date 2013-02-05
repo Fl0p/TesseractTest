@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0926A7B13CC447B1842AFBFF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3C4EE24D484D91BD012E49 /* libPods.a */; };
+		DB938B9C16C1107500EBB8CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB938B9B16C1107500EBB8CE /* UIKit.framework */; };
+		DB938B9E16C1107500EBB8CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB938B9D16C1107500EBB8CE /* Foundation.framework */; };
+		DB938BA016C1107500EBB8CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB938B9F16C1107500EBB8CE /* CoreGraphics.framework */; };
+		DB938BA616C1107500EBB8CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB938BA416C1107500EBB8CE /* InfoPlist.strings */; };
+		DB938BA816C1107500EBB8CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB938BA716C1107500EBB8CE /* main.m */; };
+		DB938BAC16C1107500EBB8CE /* TTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB938BAB16C1107500EBB8CE /* TTAppDelegate.m */; };
+		DB938BAE16C1107500EBB8CE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DB938BAD16C1107500EBB8CE /* Default.png */; };
+		DB938BB016C1107500EBB8CE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB938BAF16C1107500EBB8CE /* Default@2x.png */; };
+		DB938BB216C1107500EBB8CE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB938BB116C1107500EBB8CE /* Default-568h@2x.png */; };
+		DB938BB516C1107500EBB8CE /* TTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB938BB416C1107500EBB8CE /* TTViewController.m */; };
+		DB938BB816C1107500EBB8CE /* TTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB938BB616C1107500EBB8CE /* TTViewController.xib */; };
+		DB938BCD16C1124100EBB8CE /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = DB938BCC16C1124100EBB8CE /* tessdata */; };
+		DB938BD116C1126100EBB8CE /* sample-2-4.png in Resources */ = {isa = PBXBuildFile; fileRef = DB938BD016C1126100EBB8CE /* sample-2-4.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F3C4EE24D484D91BD012E49 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B500C33B9A644B4AA9DB5FCB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		DB938B9716C1107500EBB8CE /* TesseractTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesseractTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB938B9B16C1107500EBB8CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB938B9D16C1107500EBB8CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB938B9F16C1107500EBB8CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB938BA316C1107500EBB8CE /* TesseractTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TesseractTest-Info.plist"; sourceTree = "<group>"; };
+		DB938BA516C1107500EBB8CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB938BA716C1107500EBB8CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB938BA916C1107500EBB8CE /* TesseractTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TesseractTest-Prefix.pch"; sourceTree = "<group>"; };
+		DB938BAA16C1107500EBB8CE /* TTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTAppDelegate.h; sourceTree = "<group>"; };
+		DB938BAB16C1107500EBB8CE /* TTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTAppDelegate.m; sourceTree = "<group>"; };
+		DB938BAD16C1107500EBB8CE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DB938BAF16C1107500EBB8CE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DB938BB116C1107500EBB8CE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DB938BB316C1107500EBB8CE /* TTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTViewController.h; sourceTree = "<group>"; };
+		DB938BB416C1107500EBB8CE /* TTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTViewController.m; sourceTree = "<group>"; };
+		DB938BB716C1107500EBB8CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TTViewController.xib; sourceTree = "<group>"; };
+		DB938BCC16C1124100EBB8CE /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tessdata; path = TesseractTest/tessdata; sourceTree = "<group>"; };
+		DB938BD016C1126100EBB8CE /* sample-2-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sample-2-4.png"; path = "TesseractTest/sample-2-4.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB938B9416C1107500EBB8CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB938B9C16C1107500EBB8CE /* UIKit.framework in Frameworks */,
+				DB938B9E16C1107500EBB8CE /* Foundation.framework in Frameworks */,
+				DB938BA016C1107500EBB8CE /* CoreGraphics.framework in Frameworks */,
+				0926A7B13CC447B1842AFBFF /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB938B8C16C1107500EBB8CE = {
+			isa = PBXGroup;
+			children = (
+				DB938BCF16C1125700EBB8CE /* Resources */,
+				DB938BCC16C1124100EBB8CE /* tessdata */,
+				DB938BA116C1107500EBB8CE /* TesseractTest */,
+				DB938B9A16C1107500EBB8CE /* Frameworks */,
+				DB938B9816C1107500EBB8CE /* Products */,
+				B500C33B9A644B4AA9DB5FCB /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		DB938B9816C1107500EBB8CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB938B9716C1107500EBB8CE /* TesseractTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB938B9A16C1107500EBB8CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB938B9B16C1107500EBB8CE /* UIKit.framework */,
+				DB938B9D16C1107500EBB8CE /* Foundation.framework */,
+				DB938B9F16C1107500EBB8CE /* CoreGraphics.framework */,
+				4F3C4EE24D484D91BD012E49 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB938BA116C1107500EBB8CE /* TesseractTest */ = {
+			isa = PBXGroup;
+			children = (
+				DB938BAA16C1107500EBB8CE /* TTAppDelegate.h */,
+				DB938BAB16C1107500EBB8CE /* TTAppDelegate.m */,
+				DB938BB316C1107500EBB8CE /* TTViewController.h */,
+				DB938BB416C1107500EBB8CE /* TTViewController.m */,
+				DB938BB616C1107500EBB8CE /* TTViewController.xib */,
+				DB938BA216C1107500EBB8CE /* Supporting Files */,
+			);
+			path = TesseractTest;
+			sourceTree = "<group>";
+		};
+		DB938BA216C1107500EBB8CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB938BA316C1107500EBB8CE /* TesseractTest-Info.plist */,
+				DB938BA416C1107500EBB8CE /* InfoPlist.strings */,
+				DB938BA716C1107500EBB8CE /* main.m */,
+				DB938BA916C1107500EBB8CE /* TesseractTest-Prefix.pch */,
+				DB938BAD16C1107500EBB8CE /* Default.png */,
+				DB938BAF16C1107500EBB8CE /* Default@2x.png */,
+				DB938BB116C1107500EBB8CE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB938BCF16C1125700EBB8CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB938BD016C1126100EBB8CE /* sample-2-4.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB938B9616C1107500EBB8CE /* TesseractTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB938BBB16C1107500EBB8CE /* Build configuration list for PBXNativeTarget "TesseractTest" */;
+			buildPhases = (
+				DB938B9316C1107500EBB8CE /* Sources */,
+				DB938B9416C1107500EBB8CE /* Frameworks */,
+				DB938B9516C1107500EBB8CE /* Resources */,
+				44EEA20B8FE14F96965A8B60 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TesseractTest;
+			productName = TesseractTest;
+			productReference = DB938B9716C1107500EBB8CE /* TesseractTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB938B8E16C1107500EBB8CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TT;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Flop;
+			};
+			buildConfigurationList = DB938B9116C1107500EBB8CE /* Build configuration list for PBXProject "TesseractTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB938B8C16C1107500EBB8CE;
+			productRefGroup = DB938B9816C1107500EBB8CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB938B9616C1107500EBB8CE /* TesseractTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB938B9516C1107500EBB8CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB938BA616C1107500EBB8CE /* InfoPlist.strings in Resources */,
+				DB938BAE16C1107500EBB8CE /* Default.png in Resources */,
+				DB938BB016C1107500EBB8CE /* Default@2x.png in Resources */,
+				DB938BB216C1107500EBB8CE /* Default-568h@2x.png in Resources */,
+				DB938BB816C1107500EBB8CE /* TTViewController.xib in Resources */,
+				DB938BCD16C1124100EBB8CE /* tessdata in Resources */,
+				DB938BD116C1126100EBB8CE /* sample-2-4.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44EEA20B8FE14F96965A8B60 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB938B9316C1107500EBB8CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB938BA816C1107500EBB8CE /* main.m in Sources */,
+				DB938BAC16C1107500EBB8CE /* TTAppDelegate.m in Sources */,
+				DB938BB516C1107500EBB8CE /* TTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB938BA416C1107500EBB8CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB938BA516C1107500EBB8CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB938BB616C1107500EBB8CE /* TTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB938BB716C1107500EBB8CE /* en */,
+			);
+			name = TTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB938BB916C1107500EBB8CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB938BBA16C1107500EBB8CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB938BBC16C1107500EBB8CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B500C33B9A644B4AA9DB5FCB /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TesseractTest/TesseractTest-Prefix.pch";
+				INFOPLIST_FILE = "TesseractTest/TesseractTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB938BBD16C1107500EBB8CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B500C33B9A644B4AA9DB5FCB /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TesseractTest/TesseractTest-Prefix.pch";
+				INFOPLIST_FILE = "TesseractTest/TesseractTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB938B9116C1107500EBB8CE /* Build configuration list for PBXProject "TesseractTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB938BB916C1107500EBB8CE /* Debug */,
+				DB938BBA16C1107500EBB8CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB938BBB16C1107500EBB8CE /* Build configuration list for PBXNativeTarget "TesseractTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB938BBC16C1107500EBB8CE /* Debug */,
+				DB938BBD16C1107500EBB8CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB938B8E16C1107500EBB8CE /* Project object */;
+}

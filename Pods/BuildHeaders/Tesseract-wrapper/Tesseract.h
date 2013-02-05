@@ -1,0 +1,1 @@
+../../Tesseract-wrapper/Classes/Tesseract.h

@@ -1,0 +1,8 @@
+ALWAYS_SEARCH_USER_PATHS = YES
+HEADER_SEARCH_PATHS = ${PODS_HEADERS_SEARCH_PATHS}
+LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/Tesseract/lib"
+OTHER_LDFLAGS = -ObjC -llept -lstdc++ -ltesseract_all
+PODS_BUILD_HEADERS_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/Tesseract" "${PODS_ROOT}/BuildHeaders/Tesseract-wrapper"
+PODS_HEADERS_SEARCH_PATHS = ${PODS_PUBLIC_HEADERS_SEARCH_PATHS}
+PODS_PUBLIC_HEADERS_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/Tesseract" "${PODS_ROOT}/Headers/Tesseract-wrapper"
+PODS_ROOT = ${SRCROOT}/Pods
