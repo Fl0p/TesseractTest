@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		0926A7B13CC447B1842AFBFF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3C4EE24D484D91BD012E49 /* libPods.a */; };
+		DB85F65516C2ACB900A979F8 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB85F65416C2ACB900A979F8 /* opencv2.framework */; };
+		DB85F65E16C2ACFD00A979F8 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB85F65716C2ACFC00A979F8 /* Accelerate.framework */; };
+		DB85F65F16C2ACFD00A979F8 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB85F65816C2ACFC00A979F8 /* AssetsLibrary.framework */; };
+		DB85F66016C2ACFD00A979F8 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB85F65916C2ACFC00A979F8 /* CoreAudio.framework */; };
+		DB85F66116C2ACFD00A979F8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB85F65A16C2ACFC00A979F8 /* CoreMedia.framework */; };
+		DB85F66216C2ACFD00A979F8 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB85F65B16C2ACFC00A979F8 /* CoreVideo.framework */; };
+		DB85F66416C2ACFD00A979F8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB85F65D16C2ACFD00A979F8 /* QuartzCore.framework */; };
+		DB85F66616C2AD2B00A979F8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB85F66516C2AD2B00A979F8 /* AVFoundation.framework */; };
+		DB85F66816C2AE3C00A979F8 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DB85F66716C2AE3C00A979F8 /* libc++.dylib */; };
+		DB85F66A16C2AE4500A979F8 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DB85F66916C2AE4500A979F8 /* libstdc++.dylib */; };
 		DB938B9C16C1107500EBB8CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB938B9B16C1107500EBB8CE /* UIKit.framework */; };
 		DB938B9E16C1107500EBB8CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB938B9D16C1107500EBB8CE /* Foundation.framework */; };
 		DB938BA016C1107500EBB8CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB938B9F16C1107500EBB8CE /* CoreGraphics.framework */; };
@@ -26,6 +36,17 @@
 /* Begin PBXFileReference section */
 		4F3C4EE24D484D91BD012E49 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B500C33B9A644B4AA9DB5FCB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		DB85F65416C2ACB900A979F8 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = opencv/opencv2.framework; sourceTree = "<group>"; };
+		DB85F65716C2ACFC00A979F8 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		DB85F65816C2ACFC00A979F8 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		DB85F65916C2ACFC00A979F8 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		DB85F65A16C2ACFC00A979F8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		DB85F65B16C2ACFC00A979F8 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		DB85F65C16C2ACFD00A979F8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		DB85F65D16C2ACFD00A979F8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DB85F66516C2AD2B00A979F8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DB85F66716C2AE3C00A979F8 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		DB85F66916C2AE4500A979F8 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 		DB938B9716C1107500EBB8CE /* TesseractTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesseractTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB938B9B16C1107500EBB8CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DB938B9D16C1107500EBB8CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -51,9 +72,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB938B9C16C1107500EBB8CE /* UIKit.framework in Frameworks */,
-				DB938B9E16C1107500EBB8CE /* Foundation.framework in Frameworks */,
+				DB85F66616C2AD2B00A979F8 /* AVFoundation.framework in Frameworks */,
+				DB85F65E16C2ACFD00A979F8 /* Accelerate.framework in Frameworks */,
+				DB85F65F16C2ACFD00A979F8 /* AssetsLibrary.framework in Frameworks */,
+				DB85F66016C2ACFD00A979F8 /* CoreAudio.framework in Frameworks */,
+				DB85F66116C2ACFD00A979F8 /* CoreMedia.framework in Frameworks */,
+				DB85F66216C2ACFD00A979F8 /* CoreVideo.framework in Frameworks */,
+				DB85F66416C2ACFD00A979F8 /* QuartzCore.framework in Frameworks */,
 				DB938BA016C1107500EBB8CE /* CoreGraphics.framework in Frameworks */,
+				DB938B9C16C1107500EBB8CE /* UIKit.framework in Frameworks */,
+				DB85F65516C2ACB900A979F8 /* opencv2.framework in Frameworks */,
+				DB938B9E16C1107500EBB8CE /* Foundation.framework in Frameworks */,
+				DB85F66A16C2AE4500A979F8 /* libstdc++.dylib in Frameworks */,
+				DB85F66816C2AE3C00A979F8 /* libc++.dylib in Frameworks */,
 				0926A7B13CC447B1842AFBFF /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,10 +115,21 @@
 		DB938B9A16C1107500EBB8CE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DB85F66516C2AD2B00A979F8 /* AVFoundation.framework */,
+				DB85F65716C2ACFC00A979F8 /* Accelerate.framework */,
+				DB85F65816C2ACFC00A979F8 /* AssetsLibrary.framework */,
+				DB85F65916C2ACFC00A979F8 /* CoreAudio.framework */,
+				DB85F65A16C2ACFC00A979F8 /* CoreMedia.framework */,
+				DB85F65B16C2ACFC00A979F8 /* CoreVideo.framework */,
+				DB85F65D16C2ACFD00A979F8 /* QuartzCore.framework */,
+				DB85F65416C2ACB900A979F8 /* opencv2.framework */,
 				DB938B9B16C1107500EBB8CE /* UIKit.framework */,
 				DB938B9D16C1107500EBB8CE /* Foundation.framework */,
 				DB938B9F16C1107500EBB8CE /* CoreGraphics.framework */,
 				4F3C4EE24D484D91BD012E49 /* libPods.a */,
+				DB85F65C16C2ACFD00A979F8 /* libz.dylib */,
+				DB85F66916C2AE4500A979F8 /* libstdc++.dylib */,
+				DB85F66716C2AE3C00A979F8 /* libc++.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -294,6 +336,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B500C33B9A644B4AA9DB5FCB /* Pods.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/opencv\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TesseractTest/TesseractTest-Prefix.pch";
 				INFOPLIST_FILE = "TesseractTest/TesseractTest-Info.plist";
@@ -306,6 +352,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B500C33B9A644B4AA9DB5FCB /* Pods.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/opencv\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TesseractTest/TesseractTest-Prefix.pch";
 				INFOPLIST_FILE = "TesseractTest/TesseractTest-Info.plist";
