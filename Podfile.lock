@@ -1,14 +1,11 @@
 
 COCOAPODS: 0.16.1
 
-DEPENDENCIES: 
-- Tesseract-wrapper (>= 0.0)
+SPEC CHECKSUMS: 
+  Reachability: 1c8584c5f26fa776695efef95caaa50402c94cfb
 
 PODS: 
-- Tesseract (0.0.1)
-- Tesseract-wrapper (0.0.1): 
-  - Tesseract
+- Reachability (3.1.0)
 
-SPEC CHECKSUMS: 
-  Tesseract-wrapper: 0246bc8aeb1d18e0dc30c722f1ca6251c2d8a7cd
-  Tesseract: 62dcefb8b3b9d1ba2d62711449cc4da06759ebc1
+DEPENDENCIES: 
+- Reachability (>= 3.1)

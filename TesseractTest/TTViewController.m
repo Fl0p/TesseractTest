@@ -8,7 +8,7 @@
 
 #import "TTViewController.h"
 
-#import "Tesseract.h"
+//#import "Tesseract.h"
 
 #ifdef __cplusplus
 #import <opencv2/opencv.hpp>
@@ -29,7 +29,7 @@
 }
 
 -(IBAction)onPress:(id)sender {
-    
+    /*
     NSLog(@" START ");
     
     Tesseract* tesseract = [[Tesseract alloc] initWithDataPath:@"tessdata" language:@"eng"];
@@ -46,7 +46,7 @@
     self.text.text = result;
 
     NSLog(@"%@", result);
-    
+    */
 }
 
 - (void)didReceiveMemoryWarning {
